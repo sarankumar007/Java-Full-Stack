@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url("https://static.wikia.nocookie.net/onepiece/images/8/8a/Straw_Hat_Pirates_as_a_Family.png/revision/latest?cb=20191224001733");
+  
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  padding-top: 100px;
+  padding-right: 40px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: transparent;
+}
+
+.flip-card-back {
+  background-color:transparent;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+<center>
+<h1 style="color: white;">Guess What's special today?</h1>
+<h3 style="color:white">Hover Luffy to know it!!!</h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+     
+    </div>
+    <div class="flip-card-back">
+      <b><h1 style="color: red;">Happy Birthday Luffy!!! </h1> 
+      <p style="color:red">Become king of the pirates soon!</p> 
+      <p style="color: red;">Gomu gomu no pistol</p></b>
+    </div>
+  </div>
+</div>
+</center>
+
+</body>
+</html>
