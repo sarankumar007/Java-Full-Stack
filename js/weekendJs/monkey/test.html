@@ -1,0 +1,43 @@
+<!-- <html>
+  <head>
+  </head>
+  <body>
+    <div id="container" style="display: flex;flex-wrap: wrap;gap: 23px;">
+    </div>
+    <script>
+      const container = document.getElementById('container');
+      for (let i = 1; i <= 100; i++) {
+        let box = document.createElement('div');
+        box.innerHTML = i;
+        box.style.width = '150px';
+        box.style.height = '150px';
+        box.style.backgroundColor = i % 2 === 0 ? 'purple' : 'pink';
+        container.append(box);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+	</head>
+<body>
+    <img style="padding-left: 44%;padding-top: 16%;" src="m1.jpg" id="myImage" width="100" height="150" >
+    <script>
+       function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("m1.jpg")) {
+                image.src = "m2.jpg";
+            }
+            else {
+                image.src = "m1.jpg";
+            }
+        }
+        const image=document.querySelector("#myImage");
+        image.addEventListener("click",changeImage);
+       
+    </script>
+</body>
+</html>
