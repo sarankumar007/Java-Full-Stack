@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+.header{
+    padding-left: 2%;
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    justify-content: center;
+    font-size: 127%;
+}
+
+.book-icon{
+    background-color: #f81d52;
+    color: white;
+    border-radius: 4px;
+    height: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    
+}
+
+
+.car_header{
+    padding-top: 2%;
+}
+
+.bottom-left1{
+    position:absolute;
+    top:380px;
+    left: 140px;
+    font-size: 105%;
+}
+
+.bottom-left2{
+    position:absolute;
+    top:420px;
+    left: 140px;
+    font-size: 167%;
+    font-weight: bold;
+    width: 19%;
+}
+
+.hover14{
+	position: relative;
+}
+.hover14::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 10%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-50deg);
+	transform: skewX(-50deg);
+}
+.hover14:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+.part2{
+    display: flex;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+.left_part2{
+    width: 40%;
+}
+.right_part2{
+    width: 60%;
+}
+.subheading{
+font-size: 105%;
+align-content:justify-content;
+}
+.heading{
+font-size: 201%;
+font-weight: bold;
+align-content:justify-content;
+}
+.para{
+    font-size: 108%;
+}
+
+.part2_inner{
+    padding-left: 10%;
+    display: flex;
+    gap:33%;
+    width: 80%;
+}
+
+.part3{
+    display: flex;
+    margin-top: 4%;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.part3_left{
+width: 50%;
+}
+.part3_right{
+width: 50%;
+padding-left: 5%;
+}
+
+.part3_inner{
+    display: flex;
+}
+
+.part1_padding{
+    left:0% ;
+}
