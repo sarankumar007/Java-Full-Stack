@@ -3,8 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <h1>GameStop</h1>
+<center><h1>Shapes</h1></center>
   );
 }
+
 
 export default App;

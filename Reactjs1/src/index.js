@@ -2,29 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Image from './Image';
-import Desc from './Desc';
-import Rate from './Rate';
-import Logo from './Logo';
+import Calculation from './Calculation';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div id="main">
-      <div id="logo">
-    <Logo />
-    </div>
-    <div>
-    <App /></div>
-    </div>
-    <div id="down">
-      <div>    <Image />
-</div>
-<div>
-    <Desc />
-    <Rate /></div>
-    </div>
+    <App />
+    <Calculation/>
   </React.StrictMode>
 );
 

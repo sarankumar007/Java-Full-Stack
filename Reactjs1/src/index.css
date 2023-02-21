@@ -5,31 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #555;
-  text-align: center;
-  color: blanchedalmond;
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h1{
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  color: blanchedalmond;
-  font-size: 90px;
-}
-#main{
-  display: flex;
-  justify-content: center;
-}
-#logo{
-  padding-top: 5%;
-  padding-right: 2%;
-}
-#down{
-  display: flex;
-}
-
