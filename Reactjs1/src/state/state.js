@@ -32,8 +32,6 @@ changeAll=()=>{
   
 }
     render(){
-    var side=this.props.s;
-    var peri=12*side;
     return (
         <>
         <h1>R value : {this.state.r}</h1>
